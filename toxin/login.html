@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="src/static/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet"></head>
+  <body>
+    <header class="header">
+      <div class="header__nav container">
+        <div class="header__logo">
+          <div class="logo"><a class="logo-link" href="landing-page.html"><img src="../img/logo.png" alt="Toxin"></a></div>
+        </div>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item"><a class="header__menu-link" href="#">О нас</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#">Услуги</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#">Вакансии</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#">Новости</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="#">Соглашения</a></li>
+          </ul>
+        </nav>
+        <div class="header__user">
+          <div class="btn__wrapper"><a class="btn btn_border-header btn_header" href="login.html"><span class="btn__label">Войти</span></a></div>
+          <div class="btn__wrapper"><a class="btn btn_header" href="registration.html"><span class="btn__label">Зарегистрироваться</span></a></div>
+        </div>
+      </div>
+    </header>
+    <main class="login__bg">
+      <div class="login__container container">
+        <section class="login-card">
+          <div class="login card">
+            <div class="login__wrapper">
+              <p class="login__title">Войти</p>
+              <div class="text-field text-field_login">
+                <input class="text-field__input" placeholder="Email">
+              </div>
+              <div class="text-field text-field_login">
+                <input class="text-field__input" placeholder="Пароль" type="password">
+              </div>
+              <div class="btn__wrapper"><a class="btn btn_big btn_login"><span class="btn__label">Войти</span></a></div>
+              <div class="registration__info"><span class="registration__account">Нет аккаунта на Toxin?</span>
+                <div class="btn__wrapper"><a class="btn btn_border" href="registration.html"><span class="btn__label">Создать</span></a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__info">
+          <div class="footer__logo">
+            <div class="logo"><a class="logo-link" href="landing-page.html"><img src="../img/logo.png" alt="Toxin"></a></div>
+          </div>
+          <div class="footer-description">Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»</div>
+        </div>
+        <nav class="footer__menu">
+          <div>
+            <h3 class="footer__menu-title">Навигация</h3>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#">О нас</a></li>
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#">Новости</a></li>
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#">Служба поддержки</a></li>
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#">Услуги</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__menu-title">О нас</h3>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#">О сервисе</a></li>
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#">Наша команда</a></li>
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#">Вакансии</a></li>
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#">Инвесторы</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__menu-title">Служба поддержки</h3>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#">Соглашения</a></li>
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#">Сообщества</a></li>
+              <li class="footer__menu-item"><a class="footer__menu-link" href="#">Связь с нами</a></li>
+            </ul>
+          </div>
+        </nav>
+        <label class="footer__newsletter">
+          <h3 class="footer__newsletter-title">Подписка</h3>
+          <p class="footer__newsletter-text">Получайте специальные предложения и новости сервиса</p>
+          <div class="subscription-field__wrapper">
+            <label class="subscription-field__title" for="subscribe"> 
+              <p></p>
+            </label>
+            <input class="subscription-field__input" id="subscribe" type="email" name="some-info" placeholder="Email"><i class="subscription-field__icon">arrow_forward</i>
+          </div>
+        </label>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__bottom-container container">
+          <p class="footer__copyright">Copyright © 2019 Toxin отель. Все права защищены.</p>
+          <ul class="socials">
+            <li class="socials__item"><a class="socials__link" href="#"><i class="socials__icon fab fa-twitter"></i></a></li>
+            <li class="socials__item"><a class="socials__link" href="#"><i class="socials__icon fab fa-facebook-square"></i></a></li>
+            <li class="socials__item"><a class="socials__link" href="#"><i class="socials__icon fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  <script type="text/javascript" src="./js/main.js"></script></body>
+</html>
