@@ -466,7 +466,6 @@ body {
 .text-field {
   max-width: 320px; }
   .text-field__input {
-    outline: none;
     font: normal 0.875rem Montserrat;
     color: rgba(31, 32, 65, 0.25);
     padding-left: 15px;
@@ -508,7 +507,6 @@ body {
     text-transform: uppercase;
     color: #1F2041; }
   .masked-text-field__input {
-    outline: none;
     font: normal 0.875rem Montserrat;
     color: rgba(31, 32, 65, 0.25);
     padding-left: 15px;
@@ -541,7 +539,6 @@ body {
     margin: 0 0 5px 0; }
   .date-dropdown__input {
     text-align: center;
-    outline: none;
     font: normal 0.875rem Montserrat;
     color: rgba(31, 32, 65, 0.75);
     padding-right: 20px;
@@ -715,7 +712,6 @@ body {
     text-transform: uppercase;
     color: #1F2041; }
   .filter-date-dropdown__input {
-    outline: none;
     font: normal 0.875rem Montserrat;
     color: rgba(31, 32, 65, 0.75);
     padding-left: 15px;
@@ -763,7 +759,6 @@ body {
   color: #1F2041; }
 
 .subscription-field__input {
-  outline: none;
   font: normal 0.875rem Montserrat;
   color: rgba(31, 32, 65, 0.75);
   padding-left: 15px;
@@ -777,7 +772,7 @@ body {
     border: 1px solid rgba(31, 32, 65, 0.5); }
 
 .subscription-field__icon {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-size: 24px;
   font-style: normal;
   cursor: pointer;
@@ -1179,7 +1174,6 @@ body {
   background-color: #fff;
   border: 1px solid rgba(31, 32, 65, 0.25);
   border-radius: 10px;
-  outline: none;
   -webkit-transition: background 450ms ease;
   transition: background 450ms ease;
   margin-right: 10px;
@@ -1223,8 +1217,7 @@ body {
   border-radius: 10px;
   cursor: pointer;
   -webkit-transition: all 0.1s;
-  transition: all 0.1s;
-  outline: none; }
+  transition: all 0.1s; }
   .like-btn_clicked {
     color: #BC9CFF;
     border-color: #BC9CFF; }
@@ -1386,7 +1379,6 @@ body {
   width: 12px;
   box-sizing: content-box;
   border-radius: 10px;
-  outline: none;
   position: relative;
   border: 2px solid #FFFFFF;
   background: -webkit-gradient(linear, left top, left bottom, from(#6FCF97), to(#66D2EA));
@@ -1412,7 +1404,6 @@ body {
   box-sizing: border-box;
   height: 44px;
   text-align: center;
-  outline: none;
   text-decoration: none; }
   @media (max-width: 415px) {
     .btn {
@@ -1746,7 +1737,6 @@ body {
       padding: 2px;
       cursor: pointer;
       color: transparent;
-      outline: none;
       background: transparent;
       border: 1px solid white;
       box-shadow: 0 5px 5px 0 rgba(31, 32, 65, 0.25);
