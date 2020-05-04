@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Камень, ножницы, бумага</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="score">
+          <div class="score-wrapper">
+            <span id="userCounter">YOU</span>
+            <span id="score"></span>
+            <span id="computerCounter">COM</span>
+          </div>
+        </div>
+        <div class="selections">
+          <button value="rock" onclick="game(this.value)">
+            <i class="far fa-hand-rock"></i>
+          </button>
+          <button value="scissors" onclick="game(this.value)">
+            <i class="far fa-hand-scissors"></i>
+          </button>
+          <button value="paper" onclick="game(this.value)">
+            <i class="far fa-hand-paper"></i>
+          </button>
+        </div>
+      </div>
+      <div class="challenge">
+        <div class="challenge__user-selection"></div>
+        <div class="challenge__result">Компьютер выиграл!</div>
+        <div class="challenge__computer-selection"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
