@@ -115,7 +115,8 @@ body {
 
 @media (max-width: 500px) {
   .challenge {
-    font-size: 1.5625rem;
+    font-size: 1.375rem;
+    width: 350px;
   }
 }
 
