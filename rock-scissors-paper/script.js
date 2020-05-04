@@ -50,7 +50,7 @@ function game(userSelection) {
     computerSelection = selections[Math.floor(Math.random() * 3)];
     challenge.style.display = "none";
   }
-  setTimeout(continueGame, 1300);
+  setTimeout(continueGame, 1500);
 }
 
 function win() {
