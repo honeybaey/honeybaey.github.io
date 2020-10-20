@@ -11,7 +11,7 @@ cheapestTicketList = document.getElementById("cheapestTicketList");
 cheapTicketsList = document.getElementById("cheapTicketsList");
 
 const citiesApi = "http://api.travelpayouts.com/data/ru/cities.json";
-  calendar = "http://min-prices.aviasales.ru/calendar_preload",
+  calendar = "https://min-prices.aviasales.ru/calendar_preload",
   proxy = "https://cors-anywhere.herokuapp.com/",
   apiKey = "5cea2ec1cf27ceda36488a8eae101b8b",
   maxTickets = 10;
